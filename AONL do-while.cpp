@@ -2,7 +2,7 @@
 using namespace std;
 int main() 
 {
-float i=0,num,sum=0,avg,n;  // Initialization is (i=0) and (sum=0), while declaration are the (num) , (avg) and (n).
+float i=0,num,sum=0,avg,n;  // Initialization is (i=0) and (sum=0), while declarations are the (num) , (avg) and (n).
 
                                    // "Get the total and average of any desirable number of integers."   "(// the question when trying the code out.)"
 // (1) i=0 ---> our counter will look like this (0,1,2) if the condition were to be ---> while(i<3).
@@ -28,7 +28,7 @@ float i=0,num,sum=0,avg,n;  // Initialization is (i=0) and (sum=0), while declar
 //                From (While) to (Do While).
 
 
-// The execution of the loop occures before checking the condition unlike the previous while loop.
+// The execution of the loop occurs before checking the condition, unlike the previous while loop.
 
 cout<<"Enter the amount of maximum number of integers: ";
 cin>>n;
